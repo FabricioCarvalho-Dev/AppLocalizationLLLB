@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_txt">LLLBMaps</string>
+    <string name="Monitor_txt">Monitore</string>
+    <string name="historico_txt">Storico</string>
+    <string name="GNSS_txt">GNSS</string>
+    <string name="configuracoes_txt">Impostazioni</string>
+    <string name="creditos_txt">Creditos</string>
+    <string name="grau_decimal_txt">Grado Decimale</string>
+    <string name="grau_minuto_decimal_txt">Grado-Minuto Decimale</string>
+    <string name="grau_minuto_segundo_decimal_txt">Grado-Minuto-Secondo Decimale</string>
+    <string name="kmh_txt">Km/h (chilometro all\'ora)</string>
+    <string name="mph_txt">Mph (miglia all\'ora)</string>
+    <string name="coordGeograficas_txt">Formato coordinate geografiche</string>
+    <string name="uniVelocidade_txt">Unità di visualizzazione della velocità</string>
+    <string name="orientacaoMapa_txt">Orientamento mappa</string>
+    <string name="orientacaoNenhuma_txt">Nessuno</string>
+    <string name="orientacaoNorteCima_txt">Nord su</string>
+    <string name="orientacaoCursoCima_txt">Corso su</string>
+    <string name="tipoMapa_txt">Tipo di mappa</string>
+    <string name="vetorial_txt">Vettore</string>
+    <string name="imagemSatelite_txt">Immagine satellitare</string>
+    <string name="inforcacao_trafego_txt">Informazioni Sul Traffico</string>
+    <string name="inicio_txt">Cominciare</string>
+    <string name="fabricio_de_carvalho">Fabricio De carvalho</string>
+    <string name="gustavo_mariano">Gustavo Mariano</string>
+    <string name="deivisson_reis">Deivisson Reis</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="powered_by_the_fgdcorporation">Powered by the FGDCorporation ®</string>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name_txt">LLLBMaps</string>
+    <string name="Monitor_txt">Navegação</string>
+    <string name="historico_txt">Histórico</string>
+    <string name="GNSS_txt">GNSS</string>
+    <string name="configuracoes_txt">Configurações</string>
+    <string name="creditos_txt">Créditos</string>
+    <string name="grau_decimal_txt">Grau Decimal</string>
+    <string name="grau_minuto_decimal_txt">Grau-Minuto Decimal</string>
+    <string name="grau_minuto_segundo_decimal_txt">Grau-Minuto-Segundo Decimal</string>
+    <string name="kmh_txt">Km/h (Quilometro por hora)</string>
+    <string name="mph_txt">Mph (Milhas por hora)</string>
+    <string name="coordGeograficas_txt">Formato das coordenadas geográficas</string>
+    <string name="uniVelocidade_txt">Unidade de apresentação da velocidade</string>
+    <string name="orientacaoMapa_txt">Orientação do Mapa</string>
+    <string name="orientacaoNenhuma_txt">Nenhuma</string>
+    <string name="orientacaoNorteCima_txt">Norte em Cima</string>
+    <string name="orientacaoCursoCima_txt">Curso em Cima</string>
+    <string name="tipoMapa_txt">Tipo do Mapa</string>
+    <string name="vetorial_txt">Vetorial</string>
+    <string name="imagemSatelite_txt">Imagem de Satélite</string>
+    <string name="inforcacao_trafego_txt">Informações de Tráfego</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="inicio_txt">Inicio</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="fabricio_de_carvalho">Fabricio De carvalho</string>
+    <string name="gustavo_mariano">Gustavo Mariano</string>
+    <string name="deivisson_reis">Deivisson Reis</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="powered_by_the_fgdcorporation">Powered by the FGDCorporation ®</string>
+</resources>

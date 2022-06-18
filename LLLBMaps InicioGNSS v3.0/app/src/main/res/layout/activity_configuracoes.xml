@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004AAD"
+    tools:context=".ConfiguracoesActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="490dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331">
+
+        <RadioGroup
+            android:id="@+id/FormatoCoordenadas"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tituloFormato"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/coordGeograficas_txt"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/radioGrauDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/grau_decimal_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radioGrauMinuto"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/grau_minuto_decimal_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radioGrauSegundo"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/grau_minuto_segundo_decimal_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/UnidadeVelocidade"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <TextView
+                android:id="@+id/tituloVelocidade"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/uniVelocidade_txt"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/radioKmh"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/kmh_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radioMph"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/mph_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/TipoMapa"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <TextView
+                android:id="@+id/tituloTipoMapa"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/tipoMapa_txt"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/radioVetorial"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/vetorial_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radioSatelite"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/imagemSatelite_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/OrientacaoMapa"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tituloOrientacaoMapa"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/orientacaoMapa_txt"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/radioNenhuma"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/orientacaoNenhuma_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radioNorte"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/orientacaoNorteCima_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/radioCurso"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/orientacaoCursoCima_txt"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tituloTrafego"
+                android:layout_width="214dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/inforcacao_trafego_txt"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <Switch
+                android:id="@+id/switchTrafego"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomMonitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/azul"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_principal">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>
